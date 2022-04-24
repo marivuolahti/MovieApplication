@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <script src="lol.js"></script>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<header>
+    <h1>Finnkinon elokuvateatterit ja näytösajat</h1>
+</header>
+<main>
+    <select id="teatterit" onchange="aikat()" class="tehtavien-erottelu"> 
+    </select> 
+	<input type="text" id="pvm" name="pvm" value=" " maxsize="10" onchange="aikat()" title="Anna päivämäärä muodossa pp.kk.vvvv">
+    <div id="tabledata"></div> 
+</main>
+</body>
+</html>

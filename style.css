@@ -1,0 +1,85 @@
+:root {
+--pink: rgb(236, 14, 151); 
+--white: #EEE;
+--gray: rgb(83, 77, 77);
+--purple: rgb(217, 0, 255);
+--yellow: rgb(255, 235, 17);
+}
+
+body {
+   background-image: linear-gradient(120deg, var(--pink), var(--gray));
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+	
+   
+}
+.esitys {
+    list-style: none;
+
+	display: table;
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+.elokuvat {
+	margin: 50px 20px 15px 15px
+}
+.aika {
+	color: var(--white);
+	font-size: 1.0rem;
+	
+}
+.kuva {
+	margin: 0px;
+}
+main {
+	justify-content: center;
+	text-align: center;
+	
+}
+
+input[type=text] {
+	width: 120px;
+	padding: 10px 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	box-sizing: border-box;
+	background: var(--purple);
+	color: var(--white);
+	}
+	
+	select {
+		width: 300px;
+	padding: 10px 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	box-sizing: border-box;
+	}
+
+	select:hover {
+background: var(--pink);
+color: var(--white);
+
+}
+select {
+	cursor: pointer;
+}	
+
+header h1 {
+	background-image: linear-gradient(to right, var(--purple),
+    var(--yellow));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px black;
+	font-size: 4rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	
+	}
+
